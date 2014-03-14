@@ -1,0 +1,36 @@
+{
+    "capabilities": [
+        {
+            "browserName": "firefox",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "chrome",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "opera",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "internet explorer",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "phantomjs",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        }
+    ],
+    "configuration": {
+        "maxSession": 2,
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4455,
+        "hubHost": "jenkins.test"
+    }
+}
