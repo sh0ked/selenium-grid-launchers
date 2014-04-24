@@ -1,4 +1,5 @@
 Selenium Grid Launchers
+[![Build Status](https://travis-ci.org/sh0ked/selenium-grid-launchers.svg?branch=master)](https://travis-ci.org/sh0ked/selenium-grid-launchers)
 ---
 Selenium Server Port: 4455
 
